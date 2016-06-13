@@ -21,5 +21,11 @@ public class Empresa {
 		this.id = id;
 		
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Empresa com id " + id + " e nome "+nome+ ".";
+	}
 
 }
